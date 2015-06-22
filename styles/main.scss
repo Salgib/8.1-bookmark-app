@@ -13,36 +13,13 @@ $medium-gray: #cbcbcb;
 .app-container {
   @include outer-container;
   margin-top: 1em;
-}
-
-.menu {
-  @include span-columns(8);
-  list-style: none;
-}
-
-.menu-category-heading {
+  padding-top: 5px;
   background-color: $light-gray;
-  border: 1px solid $medium-gray;
-  text-align: center;
+  width: 800px;
 }
 
-.menu-category-items {
-  list-style: none;
-  border-right: 1px solid $light-gray;
-  border-left: 1px solid $light-gray;
-  border-bottom: 1px solid $light-gray;
-  margin-bottom: 2em;
-}
-
-.order {
-  @include span-columns(4);
-}
-
-.order-items {
-  @extend .pure-table;
-}
-
-.order-submit {
-  @extend .pure-button;
-  @extend .pure-button-primary;
+.bookmark {
+  margin: 15px;
+  padding: 5px;
+  background-color: $medium-gray;
 }
