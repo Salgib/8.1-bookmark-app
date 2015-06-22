@@ -1,25 +1,3 @@
 @import '../bower_components/pure/pure';
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import '../bower_components/neat/app/assets/stylesheets/neat';
-
-$light-gray: #e0e0e0;
-$medium-gray: #cbcbcb;
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.app-container {
-  @include outer-container;
-  margin-top: 1em;
-  padding-top: 5px;
-  background-color: $light-gray;
-  width: 800px;
-}
-
-.bookmark {
-  margin: 15px;
-  padding: 5px;
-  background-color: $medium-gray;
-}
